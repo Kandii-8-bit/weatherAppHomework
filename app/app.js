@@ -13,7 +13,9 @@ function addEventListener(cityZip) {
 
 function getWeather(cityZip) {
 
-    $.get(`http://api.weatherapi.com/v1/current.json?key=3b3d9ca985124708968211520211309&q=${cityZip}&aqi=no`, function(data) {
+    
+
+    $.get(`https://api.weatherapi.com/v1/current.json?key=3b3d9ca985124708968211520211309&q=${cityZip}&aqi=no`, function(data) {
         //Logs all Data
         console.log(data);
 
