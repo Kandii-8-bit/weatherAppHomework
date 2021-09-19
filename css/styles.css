@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 15px;
+}
+
+/* This is where the content on my page is styled */
+.appBackgrImg {
+  background-image: url(../images/taylor-van-riper-yQorCngxzwI-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+#content #weatherPic {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#content form label {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+#content form .searchBar {
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: black;
+  display: flex;
+  flex-direction: row;
+}
+#content form #submit {
+  background: #00008b;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  transition: 1s;
+}
+#content form #submit:hover {
+  background: #1e90ff;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 1s;
+}
+#content form #submit:active {
+  background: #00008b;
+}
+#content #weatherInfo table, #content #weatherInfo th, #content #weatherInfo td {
+  border: 2px solid #00008b;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 450px;
+  height: 10px;
+  color: black;
+  padding: 10px;
+  margin-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#content #weatherInfo td {
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+#content .registerBtn {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+#content .registerBtn button {
+  background: #00008b;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 20px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  transition: 1s;
+}
+#content .registerBtn button:hover {
+  background: #1e90ff;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 1s;
+}
+#content .registerBtn button:active {
+  background: #00008b;
+}

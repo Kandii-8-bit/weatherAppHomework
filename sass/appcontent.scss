@@ -1,0 +1,153 @@
+/* This is where the content on my page is styled */
+
+.appBackgrImg {
+    background-image: url(../images/taylor-van-riper-yQorCngxzwI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+    
+
+    #weatherPic {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    form {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+        label {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+           
+        }
+
+        .searchBar {
+            background: transparent;
+            // border: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom-color: black;
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        #submit {
+            //add color here
+            background: #00008b;
+            color: #ffffff;
+            border: none;
+            border-radius: 15px;
+            padding: 10px;
+            text-transform: capitalize;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            //this will tell hover to transition and for how long
+            transition: 1s;
+        }
+        #submit:hover {
+            background: #1e90ff;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            //for active
+            transition: 1s;
+        }
+        //active I just use to let the user know it has been clicked
+        #submit:active {
+            background: #00008b;
+        }
+        
+    }
+
+    #weatherInfo {
+
+        table, th, td {
+            border: 2px solid #00008b;
+            border-collapse: collapse;
+            // background-color: white;
+            margin: 0 auto;
+            width: 450px;
+            height: 10px;
+            color: black;
+            padding: 10px;
+            margin-top: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            // font-size: 14px;
+
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+          }
+
+        //   th {
+        //       font-size: 17px;
+        //   }
+
+          td {
+            margin: 0 auto;
+            text-align: center;
+            // font-weight: bold;
+            color: black;
+          }
+
+    }
+
+    .registerBtn {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+        button {
+            background: #00008b;
+            color: #ffffff;
+            border: none;
+            border-radius: 15px;
+            padding: 10px;
+            margin-right: 20px;
+            text-transform: capitalize;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            transition: 1s;
+    
+        }
+    
+        button:hover {
+            background: #1e90ff;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            //for active
+            transition: 1s;
+        }
+    
+        button:active {
+            background: #00008b;
+        }
+
+    }
+
+   
+}
+
+

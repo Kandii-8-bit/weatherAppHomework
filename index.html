@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="appBackgrImg">
+
+    <!-- All Content on Page! -->
+    <div id="content">
+
+        <div id="weatherPic"><img src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt=""></div>
+
+        <form>
+            <label for="cityZip">Zip Code or City Name:</label>
+            <input class="searchBar" type="text" id="cityZip"><br />
+            <input type="submit" id="submit" value="Get Weather">
+        </form>
+
+        <div id="weatherInfo">
+            <!-- To Display Weather Information! -->
+            <table>
+                <tr>
+                    <th>Current Weather Temperature</th>
+                    <th>Location</th>
+                </tr>
+                <tr>
+                    <td id="tempF"></td>
+                    <td id="location"></td>
+                </tr>
+
+            </table>
+
+            <table>
+                <tr>
+                    <th>Feels Like</th>
+                    <th>Region</th>
+                </tr>
+                <tr>
+                    <td id="feelslike"></td>
+                    <td id="region"></td>
+                </tr>
+
+            </table>
+
+            <table>
+                <tr>
+                    <th>Humidity</th>
+                    <th>Localtime</th>
+                </tr>
+                <tr>
+                    <td id="humidity"></td>
+                    <td id="localtime"></td>
+                </tr>
+
+            </table>
+
+
+        </div>
+
+        <div class="registerBtn">
+            <button type="button">Log in</button>
+            <button type="button">Sign up</button>
+
+        </div>
+
+
+    </div>
+
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="app/app.js"></script>
+</body>
+
+</html>
